@@ -18,13 +18,13 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <div style={{ marginBottom: '16px', fontSize: '1.5rem' }}>
+        <div className='contador' style={{ marginBottom: '16px', fontSize: '1.5rem' }}>
           Conteo actual: {count}
         </div>
-        <button onClick={() => setCount(count + 1)}>
+        <button className='btn-aumentar'  onClick={() => setCount(count + 1)}>
           Aumentar
         </button>
-        <button onClick={() => setCount(count - 1)} style={{ marginLeft: '8px' }}>
+        <button className='btn-disminuir' onClick={() => setCount(count - 1)} style={{ marginLeft: '8px' }}>
           Disminuir
         </button>
         <p>

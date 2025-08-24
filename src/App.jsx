@@ -16,7 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>CONTADOR</h1>
       <div className="card">
         <div className='contador' style={{ marginBottom: '16px', fontSize: '1.5rem' }}>
           Conteo actual: {count}
@@ -28,12 +28,10 @@ function App() {
           Disminuir
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Contador de clicks
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      
     </>
   )
 }

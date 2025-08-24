@@ -1,12 +1,60 @@
-# React + Vite
+# Contador en React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto simple de contador desarrollado con **React** y **Vite**.  
+La aplicación permite incrementar y decrementar un valor numérico mediante botones y muestra el conteo en pantalla de forma dinámica.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías usadas
+- [React 19](https://react.dev/)  
+- [Vite 7](https://vite.dev/)  
+- [ESLint](https://eslint.org/) para reglas de estilo y buenas prácticas  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Estructura básica
+- `src/` → Código fuente de la aplicación (componentes y lógica).  
+- `index.html` → Punto de entrada principal.  
+- `vite.config.js` → Configuración de Vite.  
+- `eslint.config.js` → Reglas de ESLint.  
 
-## Expanding the ESLint configuration
+## ⚙️ Instalación y uso
+1. Clona este repositorio:
+   ```bash
+   git clone <https://github.com/jOAGARMOJ/jorgeapp.git>
+   cd jorgeapp
+   ```
+2. Instala dependencias:
+   ```bash
+   npm install
+   ```
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+   Luego abre [http://localhost:5173](http://localhost:5173) en tu navegador.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Para crear una build de producción:
+   ```bash
+   npm run build
+   ```
+
+5. Para previsualizar la build:
+   ```bash
+   npm run preview
+   ```
+
+## 🖥️ Funcionalidad
+- Botón **➕ Incrementar** → aumenta el contador.  
+- Botón **➖ Decrementar** → disminuye el contador.  
+- Visualización en tiempo real del valor actual del conteo.  
+
+## 🧾 Scripts disponibles
+En `package.json` encontrarás:
+- `npm run dev` → Ejecuta la app en modo desarrollo.
+- `npm run build` → Genera la build de producción.
+- `npm run preview` → Sirve la build generada.
+- `npm run lint` → Ejecuta ESLint.
+
+## 📦 Dependencias principales
+- `react` ^19.1.1  
+- `react-dom` ^19.1.1  
+
+## 📌 Notas
+Este proyecto es un ejemplo sencillo para practicar los **hooks de React** (`useState`) y la integración con **Vite**.
